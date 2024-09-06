@@ -12,10 +12,8 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 1cm; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url(https://mrwallpaper.com/images/high/jdm-aesthetic-acura-nsx-piynmjfjssnwru0v.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(https://images.wallpaperscraft.com/image/single/lamborghini_aventador_lamborghini_car_145492_1920x1080.jpg); /* Adiciona imagem de fundo */
+    background-position: center; /*Posiciona a imagem de fundo*/
 }
 
 /* Estiliza os títulos h1 */
@@ -44,7 +42,7 @@ section input {
     color: #000000; /* Cor do texto */
     font-size: 1.2rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
-    background-color: rgba(240, 178, 197, 0.795);
+    background-color: rgba(240, 178, 197, 0.795); /* Cor do fundo */
 }
 
 /* Estiliza os botões dentro das seções */
@@ -73,10 +71,10 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    align-items: stretch;
+    display:grid; /* Cria um layout em grid para o elemento */
+    grid-template-columns: 1fr 1fr 1fr; /* Divide o espaço disponível em tamanho igual */
+    gap: 20px; /* Define o espaço entre as linhas e colunas do grid */
+    align-items: stretch; /* Alinha os itens dentro das células do grid verticalmente */
 }
 
 /* Estiliza cada item de resultado */
@@ -86,7 +84,20 @@ section button:hover {
     padding: 15px; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos intens*/
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    position: relative;
+    position: relative; /* Ajusta a posição */
+}
+
+/*Estiliza cada mensagem de resultado */
+.results {
+    color:#000000; /* Cor da letra */
+    width: 100%; /* Espaço que vai ocupar do todo */
+    text-align: center; /* Alinha o texto */
+    font-size: medium; /* Tamanho da fonte */
+    font-family: "SUSE", sans-serif; /* Estilo da fonte */
+    font-weight: 600; /* Largura da fonte */
+    padding-left: 15rem; /* Espaçamento à esquerda do todo */
+    margin-top: 0; /* Espaço entre o topo da página e o elemento */
+    font-style: italic; /* Estilo da fonte */
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -99,8 +110,8 @@ section button:hover {
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #ffffff; /* Cor do texto dos links */
-    position: absolute;
-    bottom: 10px;
+    position: absolute; /* Posição do link */
+    bottom: 10px; /* Altura referente à parte de baixo */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -108,28 +119,30 @@ section button:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
+/* Estiliza as atribuições */
 .atribuicoes-carros {
-    color: #bdb8b8;
-    font-family: 'SUSE', sans-serif;
-    margin-bottom: 2rem;
-    font-weight: 650;
+    color: #bdb8b8; /* Cor da fonte */
+    font-family: 'SUSE', sans-serif; /* Tipo da fonte */
+    margin-bottom: 2rem; /* Espaço referente à parte de baixo */
+    font-weight: 650; /* Largura da fonte */
 }
 
+/* Estiliza os parágrafos das atribuições */
 .atribuicoes-carros p {
-    margin: 0;
+    margin: 0; /* Espaçamento entre as linhas */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
     color: #e4e1e1; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
-    font-family: 'SUSE', sans-serif;
-    margin-bottom: 2rem;
+    font-family: 'SUSE', sans-serif; /* Tipo da fonte */
+    margin-bottom: 2rem; /* Espaço referente à parte de baixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #b3aaaa4b; /* Cor de fundo do rodapé */
+    background-color: #b3aaaa3b; /* Cor de fundo do rodapé */
     color: #000000; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0.2cm; /* Espaçamento interno */
@@ -138,8 +151,8 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 11px; /* Tamanho da fonte */
     line-height: 0.1; /* Tamanho da altura em cada linha */
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif; /* Tipo da fonte */
+    font-weight: 600; /* Largura da fonte */
 }
 
 @media (max-width: 768px) {
