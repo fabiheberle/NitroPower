@@ -8,7 +8,8 @@ let dados = [
         cambio: "Câmbio: Automático DSG",
         tracao: "Tração: Dianteira",
         motor: "Motor: 2.0 350 TSI",
-        link: "https://www.vw.com.br/pt/carros/Jetta.html"
+        link: "https://www.vw.com.br/pt/carros/Jetta.html",
+        tags: "alemao alemão ea888 esportivo"
     },
     {
         titulo: "Mercedes A45",
@@ -19,7 +20,8 @@ let dados = [
         cambio: "Câmbio: Automático 8G-DCT",
         tracao: "Tração: Integral 4MATIC",
         motor: "Motor: 2.0 Turbo M139",
-        link: "https://www2.mercedes-benz.com.br/passengercars/models/hatchback/a-class/amg.html"
+        link: "https://www2.mercedes-benz.com.br/passengercars/models/hatchback/a-class/amg.html",
+        tags: "amg 2.0 alemão alemao"
     },
     {
         titulo: "BMW M5",
@@ -30,7 +32,8 @@ let dados = [
         cambio: "Câmbio: Automático 8 Velocidades",
         tracao: "Tração: Integral MxDrive",
         motor: "Motor: 4.4 V8 Biturbo",
-        link: "https://www.bmw.com/en-au/models/m-series/m5-series/bmw-m5-sedan.html"
+        link: "https://www.bmw.com/en-au/models/m-series/m5-series/bmw-m5-sedan.html",
+        tags: "alemão alemao"
     },
     {
         titulo: "Porsche 911 GT3 RS",
@@ -41,7 +44,8 @@ let dados = [
         cambio: "Câmbio: Automático PDK",
         tracao: "Tração: Traseira",
         motor: "Motor: Aspirado 6 cilindros",
-        link: "https://www.porsche.com/brazil/pt/models/911/911-gt3-rs/911-gt3-rs/"
+        link: "https://www.porsche.com/brazil/pt/models/911/911-gt3-rs/911-gt3-rs/",
+        tags: "alemão alemao corrida"
     },
     {
         titulo: "Audi RS6",
@@ -52,7 +56,8 @@ let dados = [
         cambio: "Câmbio: Automático 8-speed",
         tracao: "Tração: Integral quattro",
         motor: "Motor: 4.0 V8 Biturbo TFSI",
-        link: "https://www.audi.com.br/br/web/pt/models/a6/rs-6-avant.html"
+        link: "https://www.audi.com.br/br/web/pt/models/a6/rs-6-avant.html",
+        tags: "alemão alemao perua biturbo"
     },
     {
         titulo: "Jaguar F-Type",
@@ -63,7 +68,8 @@ let dados = [
         cambio: "Câmbio: Automático 8-speed",
         tracao: "Tração: Traseira",
         motor: "Motor: V8 Supercharged",
-        link: "https://www.jaguarbrasil.com.br/jaguar-range/f-type/specifications/index.html"
+        link: "https://www.jaguarbrasil.com.br/jaguar-range/f-type/specifications/index.html",
+        tags: "britânico britanico traseira"
     },
     {
         titulo: "Bugatti Chiron",
@@ -74,7 +80,8 @@ let dados = [
         cambio: "Câmbio: Automático dupla embreagem",
         tracao: "Tração: Integral Permanente",
         motor: "Motor: 8.0 Quadriturbo W16",
-        link: "https://bugatti.com/the-bugatti-models/chiron-facets-of-performance/chiron/"
+        link: "https://bugatti.com/the-bugatti-models/chiron-facets-of-performance/chiron/",
+        tags: "frança franca francês frances integral quadriturbo"
     },
     {
         titulo: "Dodge Challenger",
@@ -85,7 +92,8 @@ let dados = [
         cambio: "Câmbio: Automático ou Manual",
         tracao: "Tração: Traseira",
         motor: "Motor: 6.2 V8 Hemi Supercharged",
-        link: "https://www.dodge.com/challenger.html"
+        link: "https://www.dodge.com/challenger.html",
+        tags: "hellcat americano eua manual"
     },
     {
         titulo: "Koenigsegg Jesko Absolut",
@@ -96,7 +104,8 @@ let dados = [
         cambio: "Câmbio: Automático 9-speed LST",
         tracao: "Tração: Traseira",
         motor: "Motor: 5.0 V8 Biturbo",
-        link: "https://www.koenigsegg.com/model/jesko-absolut"
+        link: "https://www.koenigsegg.com/model/jesko-absolut",
+        tags: "suécia suecia sueco hipercarro v8 biturbo"
     },
     {
         titulo: "Ferrari LaFerrari",
@@ -107,7 +116,8 @@ let dados = [
         cambio: "Câmbio: Automático Dupla embreagem 7-speed",
         tracao: "Tração: Traseira",
         motor: "Motor: 6.3 V12",
-        link: "https://www.ferrari.com/en-EN/auto/laferrari"
+        link: "https://www.ferrari.com/en-EN/auto/laferrari",
+        tags: "italia itália italiano"
     },
     {
         titulo: "Lamborghini Huracán STO",
@@ -118,7 +128,8 @@ let dados = [
         cambio: "Câmbio: Automático LDF 7-speed",
         tracao: "Tração: Integral",
         motor: "Motor: 5.2 V10 MPI + DSI",
-        link: "https://www.lamborghini.com/en-en/models/huracan/huracan-sto"
+        link: "https://www.lamborghini.com/en-en/models/huracan/huracan-sto",
+        tags: "itália italia italiano v10"
     },
     {
         titulo: "Chevrolet Camaro",
@@ -129,6 +140,7 @@ let dados = [
         cambio: "Câmbio: Automático ou Manual",
         tracao: "Tração: Traseira",
         motor: "Motor: 6.2 V8",
-        link: "https://www.chevrolet.com.br/esportivos/novo-camaro"
+        link: "https://www.chevrolet.com.br/esportivos/novo-camaro",
+        tags: "americano eua manual"
     }
 ];
