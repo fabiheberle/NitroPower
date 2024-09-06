@@ -27,4 +27,6 @@ NitroPower é um buscador de carros simples e divertido, feito para os amantes d
 
 **Venha testar a maior garagem virtual do mundo!** 😄🤝
 
+**Projeto desenvolvido na Imersão Alura com Google Gemini**
+
 **#NitroPower #BuscaDeCarros #HTML #CSS #JavaScript**
